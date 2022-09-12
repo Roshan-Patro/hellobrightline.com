@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <script src="https://kit.fontawesome.com/e22cfc7c76.js" crossorigin="anonymous"></script>
+    <title>Navbar</title>
+</head>
+<body>
+    <nav>
+        <!-- What ever code should be available here, all the codes are present in './module/navbar.js'. 
+            This is because I am using 'Import-Export here. And I am making the type of my script as 'module'.
+            This will only work if I open this 'html' file with 'live server'.  -->
+    </nav>
+</body>
+</html>
+
+<script type="module">
+    import {navbar} from './modules/navbar.js'
+
+    let navbar_container = document.querySelector("nav");
+    navbar_container.innerHTML = navbar();
+</script>
