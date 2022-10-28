@@ -8,7 +8,7 @@ nav{
     left: 0;
     top: 0;
     width: 100vw;
-    height: auto;
+    height: 9vw;
     transition: 200ms ease-in-out background-color;
 }
 
@@ -94,4 +94,10 @@ nav>div:nth-child(2){
 .active_nav {
     background-color: rgba(255,216,93);
     box-shadow: 0 0 .4rem rgba(0, 0, 0, .6);
+}
+
+@media all and (max-width:1020px){
+    nav{
+        background-color: rgba(255,216,93);
+    }
 }

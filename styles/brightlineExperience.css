@@ -1,0 +1,123 @@
+/* ------------------------------------------------------------------------------------------------------
+                                          THE PORTION JUST BELOW THE NAVBAR
+    ------------------------------------------------------------------------------------------------------- */
+#body_container{
+    width: 100%;
+    margin: auto;
+}
+
+#heading{
+    display: flex;
+    max-height: 800px; /*edited*/
+}
+
+#heading>div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: left;
+    font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+
+#heading>div:nth-child(1){
+    padding: 0 3%;
+}
+.page_name{
+    font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    margin: 0px 10px;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    line-height: 12px;
+}
+#tagline{
+    font-family: 'Times New Roman', ui-serif;
+    display: block;
+    font-weight: 100;
+    margin: 10px 10px;
+    font-size: 68px;
+    text-decoration: none solid rgb(44,51,63);
+    line-height: 76px;
+}
+
+#colored_tagline{
+    color: #267E6B;
+}
+
+#des{
+    margin: 20px 10px;
+    font-size: 18px;
+    line-height: 32.004px;
+}
+
+#get_started{
+    margin: 35px 10px;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.7px;
+    height: 52px;
+    width: 140px;
+    border-radius: 26px;
+    cursor: pointer;
+    border: solid 1px #267E6B;
+    color: #fff;
+    background-color: #267E6B;
+    padding: 18px 28px;
+}
+#get_started:hover{
+    background-color: rgb(27, 90, 75);
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------
+                                    MEDIA QUERIES - max-width:1020px 
+    ------------------------------------------------------------------------------------------------------- */
+    @media all and (max-width:1020px){
+        #heading{
+            display: flex;
+            flex-wrap: wrap;    
+            margin-top: 9vw;
+        }
+        .page_name{
+            margin-top: 20px;
+            line-height: 20px;
+        }
+        #heading>div{
+            width: 100%; 
+            background-color: rgba(255,216,93);   
+        }
+        #heading_text{
+            height: auto;
+        }
+        #tagline{
+            font-size: 2.2rem;
+            text-decoration: none solid rgb(44,51,63);
+            line-height: 50px;
+        }
+        #des{
+            font-size: 1rem;
+            margin-top: 2px;
+        }
+        #heading_image_div{
+            height: 80vw;
+            display: flex;
+            align-items: center;
+            border: 1px solid red;
+        }
+        #heading_image_div>img{
+            width: 70vw;
+            height: 100%;
+            min-height: 100%;
+        }
+    }
+/* ------------------------------------------------------------------------------------------------------
+                                    MEDIA QUERIES - max-width:645px 
+    ------------------------------------------------------------------------------------------------------- */
+    @media all and (max-width:645px){
+        #get_started_button{
+            text-align: center;
+        }
+        #get_started{
+            width: 90vw;
+        }
+    }
