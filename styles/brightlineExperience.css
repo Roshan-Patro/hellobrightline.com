@@ -103,7 +103,6 @@
             height: 630px;
             display: flex;
             align-items: center;
-            border: 1px solid red;
         }
         #heading_image_div>img{
             width: 70vw;
