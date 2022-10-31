@@ -9,6 +9,7 @@
 #heading{
     display: flex;
     max-height: 800px; /*edited*/
+    /* border: 1px solid red; */
 }
 
 #heading>div{
@@ -99,7 +100,7 @@
             margin-top: 2px;
         }
         #heading_image_div{
-            height: 80vw;
+            /* height: 80vw; */
             display: flex;
             align-items: center;
             border: 1px solid red;
