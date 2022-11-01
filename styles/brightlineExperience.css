@@ -70,6 +70,41 @@
     cursor: pointer;
 }
 
+.break_space{
+    height: 100px;
+    width: 100;
+    background-color: #fff;
+    /* z-index: 1; */
+}
+
+/* ------------------------------------------------------------------------------------------------------
+                                          GET HELP WITHOUT THE HASSLE
+    ------------------------------------------------------------------------------------------------------- */
+#comparison_chart_box{
+    display: block;
+    background-color: #FFD85D;
+    padding: 50px 150px 100px 150px;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 50px 0;
+}
+#comparison_chart{
+    background-color: #FFF3CE;
+    padding: 15px 15px;
+}
+.comparison_chart_row{
+    display: flex;
+}
+.comparison_chart_topic{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    justify-content: center;
+}
 /* ------------------------------------------------------------------------------------------------------
                                     MEDIA QUERIES - max-width:1020px 
     ------------------------------------------------------------------------------------------------------- */
