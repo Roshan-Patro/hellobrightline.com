@@ -232,12 +232,47 @@
         #heading_image_div>img{
             width: 90vw;
         }
+        #comparison_brightline{
+            /* border: 1px solid red; */
+            font-size: 14px;
+        }
+        #comparison_others{
+            /* border: 1px solid red; */
+            font-size: 14px;
+        }
+        .comparison_chart_image{
+            margin-right: 0px;
+            /* border: 1px solid red; */
+        }
+        .comparison_chart_image_other{
+            margin-left: 0px;
+        }
     }
 
+    /* ------------------------------------------------------------------------------------------------------
+                                    MEDIA QUERIES - max-width:330px 
+    ------------------------------------------------------------------------------------------------------- */
+    @media all and (max-width:330px){
+        #heading_image_div{
+            height: 280px;
+        }
+        .comparison_chart_image{
+            margin-right: -30px;
+            /* border: 1px solid red; */
+        }
+        .comparison_chart_image_other{
+            margin-left: 0px;
+        }
+        #comparison_chart{
+            background-color: #FFF3CE;
+            padding: 15px 0px 15px 15px;
+        }
+        
+    }
 /* ------------------------------------------------------------------------------------------------------
                                     MEDIA QUERIES - max-width:310px 
     ------------------------------------------------------------------------------------------------------- */
-    @media all and (max-width:360px){
+    @media all and (max-width:310px){
         #heading_image_div{
             height: 280px;
         }
