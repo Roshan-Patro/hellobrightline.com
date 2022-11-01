@@ -98,12 +98,36 @@
 }
 .comparison_chart_row{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .comparison_chart_topic{
     display: flex;
     flex-direction: column;
     width: 75%;
     justify-content: center;
+}
+.comparison_chart_image{
+    width:200px;
+    height: 54px;
+    margin-right: 10px;
+    color: #267E6B;
+    font-weight: 600;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.comparison_chart_image_other{
+    width: 200px;
+    height: 54px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 18px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* ------------------------------------------------------------------------------------------------------
                                     MEDIA QUERIES - max-width:1020px 
