@@ -176,7 +176,6 @@
         /* GET HELP WITHOUT THE HASSLE */
         #comparison_chart_box{
             padding: 0px 30px 80px 30px;
-            border: 1px solid red;
         }
     }
 
@@ -220,6 +219,11 @@
                                     MEDIA QUERIES - max-width:455px 
     ------------------------------------------------------------------------------------------------------- */
     @media all and (max-width:455px){
+        .title{
+            font-size: 27px;
+            line-height: 1.3;
+            padding: 30px 0 23px 0;
+        }
         #heading_image_div{
             height: 350px;
         }
@@ -232,20 +236,20 @@
                                     MEDIA QUERIES - max-width:360px 
     ------------------------------------------------------------------------------------------------------- */
     @media all and (max-width:360px){
+        .title{
+            font-size: 25px;
+        }
         #heading_image_div>img{
             width: 90vw;
         }
         #comparison_brightline{
-            /* border: 1px solid red; */
             font-size: 14px;
         }
         #comparison_others{
-            /* border: 1px solid red; */
             font-size: 14px;
         }
         .comparison_chart_image{
             margin-right: 0px;
-            /* border: 1px solid red; */
         }
         .comparison_chart_image_other{
             margin-left: 0px;
@@ -256,6 +260,9 @@
                                     MEDIA QUERIES - max-width:330px 
     ------------------------------------------------------------------------------------------------------- */
     @media all and (max-width:330px){
+        .title{
+            font-size: 23px;
+        }
         #heading_image_div{
             height: 280px;
         }
@@ -272,16 +279,6 @@
         #comparison_chart_box{
             padding: 0px 17px 80px 17px;
         }
-        /* #comparison_chart{
-            background-color: #FFF3CE;
-            padding: 15px 5px 15px 15px;
-            width: 95%;
-            border: 1px solid red;
-        } */
-        /* #comparison_chart_box{
-            display: flex;
-            justify-content: center;
-        } */
     }
 /* ------------------------------------------------------------------------------------------------------
                                     MEDIA QUERIES - max-width:310px 
